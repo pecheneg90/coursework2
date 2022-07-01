@@ -41,10 +41,10 @@ public class JavaQuestionServiceImpl implements JavaQuestionService {
         return questionList.get(random.nextInt(questions.size()));
     }
 
-    @PostConstruct
-    private void initQuestions() {
-        for (int i = 0; i < 6; i++) {
-            questions.add(new Question("question " + i, "answer" + i));
-        }
-    }
+//    @PostConstruct
+//    private void initQuestions() {
+//        for (int i = 0; i < 6; i++) {
+//            questions.add(new Question("question " + i, "answer" + i));
+//        }
+//    }
 }

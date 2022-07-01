@@ -19,8 +19,7 @@ class JavaQuestionServiceImplTest {
 
     @Test
     void add() {
-        int size;
-        size = out.getAll().size();
+        int size = out.getAll().size();
         assertEquals(getQUESTION1, out.add(getQUESTION1));
         assertEquals(size + 1, out.getAll().size());
     }
